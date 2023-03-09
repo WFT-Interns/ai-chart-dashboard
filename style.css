@@ -10,4 +10,26 @@
     top: 0px;
     color:white;
     background: #1C8B98;
+    position: fixed ;
+    display: flex;
+    justify-content: center;
+    align-items:normal
+    
+     
 }
+.sidebar ul{
+    margin-top: 50vh;
+}
+.sidebar ul li {
+   padding: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.greeting{
+    display: flex;
+    position: relative;
+    float:right;
+    margin-right: 10px;
+}
+
