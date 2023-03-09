@@ -1,3 +1,13 @@
 *{
     font-family: 'Poppins';
+    margin:0;
+    padding: 0;
+}
+.sidebar{
+    width: 291px;
+    height: 2678px;
+    left: 0px;
+    top: 0px;
+    color:white;
+    background: #1C8B98;
 }
