@@ -17,6 +17,18 @@
     
      
 }
+.sidebar .logo-container img{
+    position: absolute;
+width: 232px;
+height: 62.1px;
+left: 33px;
+top: 41.4px;
+
+background: #FFFFFF;
+border-radius: 15px;
+object-fit:contain;
+}
+
 .sidebar ul{
     margin-top: 40vh;
 }
@@ -45,27 +57,40 @@
     line-height: 30px;
 }
 
-.search-bar #search{
-    box-sizing: border-box;
-
+#search {
+box-sizing: border-box;
 position: absolute;
 width: 464px;
 height: 37px;
-left: 331px;
+left: 335px;
 top: 50px;
-
 background: #FFFFFF;
 border: 1px solid #CCCCCC;
-border-radius: 20px;
+border-radius: 10px;
+outline:none!important;
 
 }
 
 .search-button{
-    position: absolute;
+position: absolute;
 width: 35px;
 height: 45px;
 left: 747px;
 top: 46px;
+}
+
+.header-text h3{
+    position: absolute;
+    width: 242px;
+height: 36px;
+left: 363px;
+top: 139px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
 }
 
 
