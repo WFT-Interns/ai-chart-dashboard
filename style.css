@@ -4,8 +4,9 @@
     padding: 0;
 }
 .sidebar{
+    position: relative;
     width: 291px;
-    height: 2678px;
+    height: 100vh;
     left: 0px;
     top: 0px;
     color:white;
@@ -42,18 +43,35 @@
 
 
 .barChart {
+    position: relative;
     margin-left: 20%;
     padding-right: 20%;
     padding-left: 10%;
+    padding-top: 100px;
     line-height: 40px;
-    fon
 }
 
 .barChart .bar {
-    max-width: 110%;
-    background-color: #FFFFF;
+    max-width: 100vh;
+
 }
 
-.barChart p {
+p {
     font-size: 2em;
+}
+
+.suggestion {
+    position: absolute;
+    margin-left: 20%;
+    padding-left: 10%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.suggestion .board {
+    position: relative;
+    width: 25vh;
+    float: left;
+    padding-bottom: 10px;
+    padding-right: 5px;
 }
