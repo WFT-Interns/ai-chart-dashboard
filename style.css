@@ -18,18 +18,26 @@
      
 }
 .sidebar ul{
-    margin-top: 50vh;
+    margin-top: 40vh;
 }
-.sidebar ul li {
-   padding: 10px;
+.sidebar ul li a {
+
+   padding: 20px;
     display: flex;
     list-style: none;
     justify-content: center;
+    text-decoration: none;
 }
 .greeting{
     display: flex;
     position: relative;
     float:right;
     margin-right: 10px;
+    top:10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
 }
+
 
