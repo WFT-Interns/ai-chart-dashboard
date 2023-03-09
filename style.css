@@ -41,3 +41,19 @@
 }
 
 
+.barChart {
+    margin-left: 20%;
+    padding-right: 20%;
+    padding-left: 10%;
+    line-height: 40px;
+    fon
+}
+
+.barChart .bar {
+    max-width: 110%;
+    background-color: #FFFFF;
+}
+
+.barChart p {
+    font-size: 2em;
+}
