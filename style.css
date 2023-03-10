@@ -1,6 +1,6 @@
-*{
+* {
     font-family: 'Poppins';
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
@@ -46,24 +46,20 @@
     text-decoration: none;
 }
 
-.main-body {
-    width: 80%;
-}
 
 .main-body .barChart {
     position: relative;
     margin-left: 25%;
     width: 60vw;
     margin-top: 20px;
-    padding-left: 5%;
     line-height: 40px;
-    box-shadow: 0px 4px 58px rgba(0, 0, 0, 0.07);
-    border-radius: 10px;
 }
 
 .main-body .barChart .bar {
-    max-width: 100vh;
-
+    width: 120vh;
+    box-shadow: 0px 4px 58px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    padding-left: 0%;
 }
 
 p {
@@ -74,7 +70,6 @@ p {
     position: absolute;
     margin-left: 25%;
     width: 65vw;
-    margin-top: 5px;
     padding-left: 0%;
     padding-top: 50px;
     text-align: center;
@@ -124,4 +119,23 @@ p {
     padding-top: 10px;
     box-shadow: 0px 4px 58px rgba(0, 0, 0, 0.07);
     border-radius: 10px;
+}
+
+.mktTrend {
+    margin-top: 300px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    width: 65vw;
+}
+
+.mktTrend .chart {
+    width: 130vh; 
+    box-shadow: 0px 4px 58px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;  
+}
+
+
+.FHead {
+    margin-left: 25%;
+    margin-top: 20px;
 }
