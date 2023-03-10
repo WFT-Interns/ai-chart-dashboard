@@ -50,13 +50,13 @@
 .main-body .barChart {
     position: relative;
     margin-left: 25%;
-    width: 60vw;
+    width: 65vw;
     margin-top: 20px;
     line-height: 40px;
 }
 
 .main-body .barChart .bar {
-    width: 120vh;
+    width: 100%;
     box-shadow: 0px 4px 58px rgba(0, 0, 0, 0.07);
     border-radius: 10px;
     padding-left: 0%;
@@ -122,20 +122,59 @@ p {
 }
 
 .mktTrend {
-    margin-top: 300px;
+    margin-top: 250px;
     margin-bottom: 20px;
     margin-left: 25%;
     width: 65vw;
 }
 
 .mktTrend .chart {
-    width: 130vh; 
+    width: 100%; 
     box-shadow: 0px 4px 58px rgba(0, 0, 0, 0.07);
     border-radius: 10px;  
 }
 
 
-.FHead {
+.header-text {
     margin-left: 25%;
     margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+    * {
+        font-size: small;
+
+    }
+
+    .suggestion .board1, .suggestion .board2, .suggestion .board3 {
+        width: 25vw;
+    }
+    
+
+
+
+    .suggestion .board3, .suggestion .board4{
+        float: left;
+        margin-top: 10px;
+        width: 25vw;
+        margin-right: 50px;
+        margin-left: 0px;
+    }
+    
+
+    .mktTrend {
+        margin-top: 370px;
+    }
+
+}
+
+
+@media screen and (max-width: 677px) {
+    .mktTrend {
+
+    }
+    
 }
